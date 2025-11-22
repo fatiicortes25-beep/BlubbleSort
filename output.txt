@@ -1,0 +1,2 @@
+Array Original: [5, 1, 9, 3, 7, 4, 6]
+Array Ordenado: [1, 3, 4, 5, 6, 7, 9]
