@@ -5,18 +5,8 @@ import java.nio.file.Paths;
 import java.util.Arrays;
 
 public class BubbleSort {
-    public static void main(String[] args) {
-        Path archivoEntrada = Paths.get("input.txt");
-        Path archivoSalida = Paths.get("output.txt");
-        try {
-            String contenido = leerDatos(archivoEntrada);
-            int[] numeros = parsearNumeros(contenido);
-            String original = Arrays.toString(numeros);
-            bubbleSort(numeros);
-            String ordenado = Arrays.toString(numeros);
-            String resultado = "Array Original: " + original + "\n" + "Array Ordenado: " + ordenado;
-            escribirDatos(archivoSalida, resultado);
-            System.out.println(" Ver 'output.txt'");
+    // Método principal
+    
         } catch (IOException e) {
             System.err.println("Error al manejar archivos: " + e.getMessage());
         }
